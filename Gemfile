@@ -7,10 +7,11 @@ gem 'bson_ext', :require => 'mongo'
 gem 'erubis'
 
 group :assets do
-  gem 'uglifier'
+  gem 'uglifier', '2.1.1'
+  gem 'therubyracer', :require => 'v8'
 end
 
 group :production do
   gem 'execjs'
-  gem 'therubyracer'
+  gem 'therubyracer', :require => 'v8'
 end

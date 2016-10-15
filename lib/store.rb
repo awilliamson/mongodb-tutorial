@@ -3,7 +3,7 @@ require 'settings'
 
 class Store
   def self.setup
-    @@connection = Mongo::Connection.new(Settings.host, Settings.port)
+	  @@connection = Mongo::Client.new(['127.0.0.1:27017'])
     handle_passenger_forking
   end
   

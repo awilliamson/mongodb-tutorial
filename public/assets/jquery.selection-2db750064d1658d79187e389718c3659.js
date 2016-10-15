@@ -1,0 +1,1 @@
+!function(e){e.fn.selectionStart=function(){return this[0].selectionStart},e.fn.setSelectionRange=function(e,t){return this.each(function(){this.setSelectionRange(e,t)})}}(jQuery);

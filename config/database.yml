@@ -1,0 +1,6 @@
+development:
+  adapter: mongo
+  database: unicorns
+  pool: 5
+  timeout: 5000
+

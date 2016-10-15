@@ -1,1 +1,7 @@
-Mongoweb::Application.config.secret_token = '37a9f51bcae96215a80795d8109918d3c11c53e7cb55153d057ebd1b76e21ba88d452310fa91cb990f0a5c089e52cc16ff508bca111537891ca41e432e4184b2'
+# Be sure to restart your server when you modify this file.
+
+# Your secret key for verifying the integrity of signed cookies.
+# If you change this key, all old signed cookies will become invalid!
+# Make sure the secret is at least 30 characters and all random,
+# no regular words or you'll be exposed to dictionary attacks.
+Mongoweb::Application.config.secret_token = 'fe58c15bb15e2677b38b428103edaef5da5072646199b5355ed159a3cfea38720c553342f357f4358810a67197371ddd73f68456ceb096d23861a2f2d96e3a54'
