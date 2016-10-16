@@ -10,7 +10,7 @@ $(document).ready(function()
   setHeight();
   function setHeight()
   {
-    var height = $(window).height() - $('#menu').height() - $input.height() - 30;
+    var height = $(window).height() - $('#menu').height() - $input.height() - 120;
     $('#explorer').height(height);
     $('#results').height(height - $('#history').height()-10);
     $input.width($history.width()-20);

@@ -1,6 +1,6 @@
 
-#history{overflow:auto;height:250px;}
-#results{overflow:auto;margin-top:37px;font-family:menlo, consolas, arial;}
+#history{overflow:auto;height:280px;margin-bottom:15px;}
+#results{overflow:auto;margin-top:15px;font-family:menlo, consolas, arial;}
 
 #collections{display:none;}
 #explorer {display:none;}
@@ -21,7 +21,7 @@
 #history > div.teach{background:#f5ffd6;cursor:default;}
 #history > div .time{float:right;;}
 
-#input{overflow:hidden;position:absolute;top:298px;left:0;height:12px;font-size:1em;padding:9px;font-family:menlo, consolas, arial;border:solid #ccc;border-width:1px 0;}
+#input{overflow:hidden;left:auto;height:12px;font-size:1em;padding:9px;font-family:menlo, consolas, arial;border:solid #ccc;border-width:1px 0;}
 #input:focus{outline:none;}
 #input.processing{background:#f0f0f0;color:#999;background:url('/assets/loading.gif') repeat-y;}
 

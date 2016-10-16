@@ -12,5 +12,5 @@ end
 
 group :production do
   gem 'execjs'
-  gem 'therubyracer'
+  gem 'therubyracer', '0.12', :require => 'libv8'
 end

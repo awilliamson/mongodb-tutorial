@@ -18,7 +18,7 @@ class Context
   end
 
   def host
-    'arrakis'
+    'seth'
   end
 
   def collection_names
